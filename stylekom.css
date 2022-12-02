@@ -1,0 +1,101 @@
+body {
+    margin:0;
+    background-color: #5A7D7C;
+}
+header {
+height: 111px;
+display: flex;
+align-items: center;
+padding: 0 50% 0 8%;
+justify-content: space-between;
+background-color:#5A7D7C;
+
+}
+header a{
+    margin-right: 60px;
+    font-weight: 500;
+    font-size: 24px;
+    color:#EDF2F4;
+    text-decoration:none;
+}
+.logo {
+    font-size:36px;
+    color: #EDF2F4;
+}
+.first {
+    display: flex;
+    font-size: 32px;
+    color: #EDF2F4;
+   justify-content: center;
+   position: relative;
+   top: 200px;
+}
+.composer {
+    background-color: #EDF2F4;
+    border-radius: 80px;
+    width: 1240px;
+    position: relative;
+    top: 400px;
+    left: 400px;
+    padding: 40px;
+    margin: 60px;
+}
+.composer>img {
+  position: relative;
+  left: 350px;
+}
+img:hover{
+    width: 600px;
+}
+.composer>h2{
+    color: #22181C;
+font-size: 40px;
+display: flex;
+justify-content: center;
+}
+.composer>p{
+    font-size: 24px;
+    color: #22181C;
+    display: flex;
+    justify-content: center;
+}
+.knopka {
+   background-color: #EDF2F4; 
+   font-size: 32px;
+   color: #5A7D7C;
+   width: 276px;
+   height: 88px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 500px;
+   left: 1000px;
+   border-radius: 30px;
+}
+.knopka>a{
+    text-decoration: none;
+    color: inherit;
+}
+.text {
+    font-size: 24px;
+    color: #EDF2F4;
+    position: relative;
+    top: 450px;
+    left: 1060px;
+}
+.end {
+    display: flex;
+    height: 70px;
+    background-color: #5A7D7C;
+    position: relative;
+ top: 700px;
+ color: #EDF2F4;
+ font-size: 20px;
+ align-items: center;
+ padding: 10px;
+ }
+ a:hover{
+    color:#22181C
+    }
+
